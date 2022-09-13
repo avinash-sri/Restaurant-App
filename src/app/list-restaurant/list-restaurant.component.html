@@ -1,0 +1,27 @@
+<div class="container">
+  <h1>List of all the restaurants.</h1>
+
+<table class="table table-striped">
+  <thead>
+    <tr>
+      <th scope="col">ID</th>
+      <th scope="col">Name</th>
+      <th scope="col">Address</th>
+      <th scope="col">Email</th>
+      <th scope="col">Actions</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr *ngFor="let item of restaurantList">
+      <th scope="row">{{item.id}}</th>
+      <td>{{item.name}}</td>
+      <td>{{item.address}}</td>
+      <td>{{item.email}}</td>
+      <td>
+        <i routerLink="/update/{{item.id}}" id="edit" class="material-icons">edit</i>
+        <i (click)="deleteRestaurant(item.id)" id="close" class="material-icons mx-3">close</i>
+      </td>
+    </tr>
+  </tbody>
+</table>
+</div>

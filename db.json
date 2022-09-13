@@ -1,0 +1,66 @@
+{
+  "restaurants": [
+    {
+      "id": 1,
+      "name": "Pepsi",
+      "address": "Station Road",
+      "email": "pepsi@gmail.com"
+    },
+    {
+      "id": 2,
+      "name": "Ashoka",
+      "address": "Middhi",
+      "email": "ashoka@gmail.com"
+    },
+    {
+      "name": "Park Inn",
+      "address": "Parikhara",
+      "email": "parkin@gmail.com",
+      "id": 3
+    },
+    {
+      "name": "Ballians",
+      "address": "Rajdhani road",
+      "email": "ballians@gmail.com",
+      "id": 4
+    },
+    {
+      "name": "Swaad",
+      "address": "Bishunipur",
+      "email": "swaad@gmail.com",
+      "id": 5
+    },
+    {
+      "name": "Windsor",
+      "address": "Indirapuram",
+      "email": "windsor@gmail.com",
+      "id": 6
+    },
+    {
+      "name": "Am Restaurant",
+      "address": "sector 59",
+      "email": "am@gmail.com",
+      "id": 7
+    },
+    {
+      "name": "Nescafe",
+      "address": "Gurgaon",
+      "email": "nescafe@gmail.com",
+      "id": 8
+    }
+  ],
+  "users": [
+    {
+      "name": "Avinash",
+      "email": "avinashsrivastav76@gmail.com",
+      "password": "avinash",
+      "id": 1
+    },
+    {
+      "name": "srivastav",
+      "email": "srivastav@gmail.com",
+      "password": "srivastav",
+      "id": 2
+    }
+  ]
+}
